@@ -33,9 +33,6 @@ def run():
     managers = {}
     watchers = {}
 
-    # print(managers_priority)
-    # print('----------')
-
     for manager in managers_priority:
         managers[manager] = []
         for item in managers_priority[manager]:
